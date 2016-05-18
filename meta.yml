@@ -1,38 +1,26 @@
 kit:
   name: "Cloudera Hadoop"
-  link: https://github.com/qubell-bazaar/component-hadoop
+  link: https://github.com/griddynamics/component-hadoop
   applications:
-    - name: "CharacterCount"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/sample-app.yml"
     - name: "CDH Main"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/component-hadoop.yml"
+      manifest: "https://raw.github.com/griddynamics/component-hadoop/2.6-43p/component-hadoop.yml"
     - name: "Cloudera Flume"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-flume.yml"
+      manifest: "https://raw.github.com/griddynamics/component-hadoop/2.6-43p/cloudera-flume.yml"
     - name: "Cloudera Hadoop"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-hadoop.yml"
-    - name: "Cloudera Hive"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-hive.yml"
-    - name: "Cloudera Hue"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-hue.yml"
-    - name: "Cloudera Impala"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-impala.yml"
+      manifest: "https://raw.github.com/griddynamics/component-hadoop/2.6-43p/cloudera-hadoop.yml"
     - name: "Cloudera Manager"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-manager.yml"
-    - name: "Cloudera Oozie"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-oozie.yml"
+      manifest: "https://raw.github.com/griddynamics/component-hadoop/2.6-43p/cloudera-manager.yml"
     - name: "Cloudera Pig"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-pig.yml"
+      manifest: "https://raw.github.com/griddynamics/component-hadoop/2.6-43p/cloudera-pig.yml"
     - name: "Cloudera Solr"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-solr.yml"
+      manifest: "https://raw.github.com/griddynamics/component-hadoop/2.6-43p/cloudera-solr.yml"
     - name: "Cloudera Yarn"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-yarn.yml"
+      manifest: "https://raw.github.com/griddynamics/component-hadoop/2.6-43p/cloudera-yarn.yml"
     - name: "Cloudera Spark"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-spark.yml"
-    - name: "Cloudera Sqoop"
-      manifest: "https://raw.github.com/qubell-bazaar/component-hadoop/2.6-43p/cloudera-sqoop.yml"
+      manifest: "https://raw.github.com/griddynamics/component-hadoop/2.6-43p/cloudera-spark.yml"
   provider:
-    name: "Qubell"
-    link: http://qubell.com
+    name: "tonomi"
+    link: http://tonomi.com
   documentation:
     overview: |
       This application requires the following items to be configured in your environment:

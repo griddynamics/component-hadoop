@@ -3,8 +3,8 @@ application:
     input.identity: "root"
     input.cookbooks_url: "https://s3.amazonaws.com/qubell-starter-kit-artifacts/qubell-bazaar/component-hadoop-cookbooks-stable-v5.tar.gz"
     input.repository_url: "http://arcspark.cloudera.com"
-    input.cloudera_manager_version: "5.1.3"
-    input.cloudera_hadoop_version: "5.1.3"
+    input.cloudera_manager_version: "5.7.0"
+    input.cloudera_hadoop_version: "5.7.0"
   interfaces:
     input:
       identity: "bind(cloudera-spark#input.identity)"
@@ -104,7 +104,7 @@ application:
                     runList: [ "recipe[cloudera::spark]" ]
                     jattrs:
                       java:
-                        java_home: "/usr/java/jdk6"
+                        java_home: "/usr/java/jdk8"
                       cloudera:
                         master:
                           host: "{$.props.vms.Node_Master_DNS}"
